@@ -98,3 +98,45 @@ Data transmission should be secured using HTTPS.
 Users should be able to select their preferred language.
 Users should be able to view prices in their selected currency.
 Currency conversion rates should be updated regularly.
+
+### Users
+
+<br> POST /api/users/register
+<br> POST /api/users/login
+<br> GET /api/users/profile
+<br> PUT /api/users/profile
+<br> POST /api/users/logout
+### Products
+
+<br> GET /api/products
+<br> GET /api/products/{product_id}
+<br> POST /api/products (admin)
+<br> PUT /api/products/{product_id} (admin)
+<br> DELETE /api/products/{product_id} (admin)
+### Shopping Cart
+
+<br> GET /api/cart
+<br> POST /api/cart/add
+<br> PUT /api/cart/update
+<br> DELETE /api/cart/remove
+### Checkout and Orders
+
+<br> POST /api/orders/checkout
+<br> GET /api/orders
+<br> GET /api/orders/{order_id}
+<br> PUT /api/orders/{order_id} (admin)
+### Reviews
+
+<br> POST /api/products/{product_id}/reviews
+<br> GET /api/products/{product_id}/reviews
+<br> PUT /api/products/{product_id}/reviews/{review_id}
+<br> DELETE /api/products/{product_id}/reviews/{review_id}
+### Admin
+
+<br> GET /api/admin/dashboard
+<br> GET /api/admin/sales
+<br> PUT /api/admin/orders/{order_id}
+### Authentication
+
+<br> POST /api/auth/login
+<br> POST /api/auth/logout
