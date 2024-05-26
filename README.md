@@ -45,39 +45,39 @@
 
 ### User Management:
 
-Authentication (register, login, logout).
-Authorization (admin vs regular user access).
++ Authentication (register, login, logout).
++ Authorization (admin vs regular user access).
 ### Theater and Movie Management:
 
-CRUD operations for theaters and movies.
-Associate movies with theaters.
++ CRUD operations for theaters and movies.
++ Associate movies with theaters.
 ### Showtime Management:
 
-CRUD operations for showtimes.
-Associate showtimes with movies and theaters.
++ CRUD operations for showtimes.
++ Associate showtimes with movies and theaters.
 ### Seat Reservation:
 
-Check seat availability.
-Reserve seats for a specific showtime.
++ Check seat availability.
++ Reserve seats for a specific showtime.
 ### Ticketing:
 
-Purchase tickets.
-View ticket details.
++ Purchase tickets.
++ View ticket details.
 ### Search and Filtering:
 
-Search movies by title or genre.
-Filter movies by genre or duration.
++ Search movies by title or genre.
++ Filter movies by genre or duration.
 ### Reviews and Ratings:
 
-View movie reviews and ratings.
-Submit reviews and ratings.
++ View movie reviews and ratings.
++ Submit reviews and ratings.
 ### Notifications:
 
-Send notifications for reservations, ticket purchases, and reminders.
++ Send notifications for reservations, ticket purchases, and reminders.
 ### Analytics and Reporting:
 
-View analytics on ticket sales, popular movies, revenue.
-Generate reports on movie attendance and user activity.
++ View analytics on ticket sales, popular movies, revenue.
++ Generate reports on movie attendance and user activity.
 
 ## REST API Endpoints:
 ### Authentication:
