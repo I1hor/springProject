@@ -1,4 +1,4 @@
-# springProject
+# Online shop
 
 Functional Requirements
 1.User Registration and Authentication
